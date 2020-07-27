@@ -3,3 +3,23 @@
     border: 0px;
     margin: 0px;
 }
+
+.wrapper {
+    background-color: #141922;
+    height: 100vh;
+    width: 100%;
+}
+
+.side-menu {
+    width: 300px;
+    height: 100%;
+    background-color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #282828;
+    width: 100%;
+    height: 100px;
+}
