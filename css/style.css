@@ -13,6 +13,7 @@
 }
 
 .side-menu {
+    /* position: relative; */
     width: 300px;
     height: 100%;
     background-color: black;
@@ -44,8 +45,19 @@ footer {
     color: #7e7e7e;
 }
 
-.aside-bottom {
-    justify-content: flex-end;
+/* .aside-bottom {
+    position: absolute;
+    bottom: 0px;
+} */
+
+.secondary-menu {
+    height: 100%;
+    overflow: hidden;
+}
+
+.playlist-list {
+    overflow-x: auto;
+    height: 80%;
 }
 
 /* MAIN SECTION STYLE */
@@ -60,13 +72,9 @@ footer {
     right: 0px;
     background-color: black;
     opacity: 0.5;
-}
-
-.navbar a {
     display: flex;
-    line-height: 100px;
+    align-items: center;
     justify-content: flex-end;
-    color: white;
 }
 
 /* COLOR STYLE */
