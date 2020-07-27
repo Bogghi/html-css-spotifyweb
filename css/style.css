@@ -1,4 +1,4 @@
-/* GENERAL */
+/* GENERAL STYLE*/
 
 * {
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 .wrapper {
     background-color: #141922;
-    height: 100vh;
+    height: calc(100vh - 100px);
     width: 100%;
 }
 
@@ -28,10 +28,24 @@ footer {
     height: 100px;
 }
 
+.list-style {
+    list-style: none;
+    padding: 0px;
+}
+
+.list-style li{
+    line-height: 30px;
+    margin-left: 20px;
+}
+
 /* SIDE MENU STYLE */
 
 .side-menu * {
-    color: white;
+    color: #7e7e7e;
+}
+
+.aside-bottom {
+    justify-content: flex-end;
 }
 
 /* MAIN SECTION STYLE */
@@ -52,5 +66,15 @@ footer {
     display: flex;
     line-height: 100px;
     justify-content: flex-end;
+    color: white;
+}
+
+/* COLOR STYLE */
+
+.clr_grey {
+    color: #7e7e7e;
+}
+
+.clr_white {
     color: white;
 }
