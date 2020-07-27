@@ -41,6 +41,12 @@ footer {
 
 /* SIDE MENU STYLE */
 
+.side-menu * {
+    color: #7e7e7e;
+    font-weight: bold;
+}
+
+/* logo style */
 .logo {
     line-height: 100px;
 }
@@ -48,22 +54,61 @@ footer {
 .logo i{
     font-size: 40px;
     padding-left: 25px;
-    font-weight: bold;
+}
+/* /logo style */
+
+/* main menu */
+
+.main-menu {
+    margin-bottom: 15px;
 }
 
-.side-menu * {
-    color: #7e7e7e;
+.main-menu .list-style i {
+    font-size: 25px;
 }
 
+.main-menu .list-style span {
+    line-height: 30px;
+}
+/* /main menu */
+
+/* secondary menu */
 .secondary-menu {
     height: 100%;
     overflow: hidden;
 }
 
+.secondary-menu h3 {
+    margin-left: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.secondary-menu .add_btn {
+    margin-left: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.secondary-menu .add_btn i {
+    color: black;
+    background-color: #a3a3a3;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.secondary-menu .add_btn span {
+    padding-left: 5px;
+}
+
 .playlist-list {
     overflow-x: auto;
     height: 80%;
+    margin-top: 15px;
 }
+/* /secondary menu */
 
 /* MAIN SECTION STYLE */
 
