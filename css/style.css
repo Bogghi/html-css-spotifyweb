@@ -253,7 +253,18 @@ i.bigger {
 /* /song control */
 
 .reproduction-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 300px;
+}
+
+.reproduction-control i {
+    margin: 0px 10px;
+}
+
+.reproduction-control [class*="progress-bar"] {
+    margin: 0px 10px;
 }
 
 /* COLOR STYLE */
