@@ -47,13 +47,10 @@ footer {
 }
 
 /* logo style */
-.logo {
-    line-height: 100px;
-}
 
-.logo i{
-    font-size: 40px;
-    padding-left: 25px;
+.logo img{
+    height: 60px;
+    margin: 20px;
 }
 /* /logo style */
 
@@ -153,6 +150,38 @@ footer {
     margin-right: 10px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+/* FOOTER - CONTROL SECTION */
+
+.control-pannel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.control-pannel * {
+    color: white;
+}
+
+.song-preview{
+    display: flex;
+    flex-direction: row;
+}
+
+.song-preview img{
+    margin: 25px 10px;
+    max-width: 50px;
+}
+
+.song-preview h3 {
+    line-height: 12px;
+    padding: 39px 0px;
+}
+
+.song-preview h3 span {
+    font-size: 10px;
+    line-height: 10px;
 }
 
 /* COLOR STYLE */
