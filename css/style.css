@@ -164,6 +164,7 @@ footer {
     color: white;
 }
 
+/* song preview */
 .song-preview{
     display: flex;
     flex-direction: row;
@@ -172,6 +173,7 @@ footer {
 .song-preview img{
     margin: 25px 10px;
     max-width: 50px;
+    max-height: 50px;
 }
 
 .song-preview h3 {
@@ -182,6 +184,49 @@ footer {
 .song-preview h3 span {
     font-size: 10px;
     line-height: 10px;
+}
+
+.library {
+    padding-top: 42px;
+}
+
+.library i[class*="fa-folder"]{
+    margin-left: 15px;
+}
+
+.library i[class*="fa-heart"]{
+    margin-left: 30px;
+}
+/* /song preview */
+
+/* song control */
+.song-control {
+    width: 700px;
+}
+
+.song-control .first-row{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: auto;
+}
+
+.first-row {
+    background-color: teal;
+}
+
+.first-row i{
+    line-height: 50px;
+    font-size: 20px;
+}
+
+i.bigger {
+    font-size: 35px;
+}
+/* /song control */
+
+.reproduction-control {
+    width: 300px;
 }
 
 /* COLOR STYLE */
