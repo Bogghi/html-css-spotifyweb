@@ -212,7 +212,7 @@ footer {
 }
 
 .first-row {
-    background-color: teal;
+    /* background-color: teal; */
 }
 
 .first-row i{
@@ -222,6 +222,33 @@ footer {
 
 i.bigger {
     font-size: 35px;
+}
+
+.second-row {
+    /* background-color: seagreen; */
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+.second-row span {
+    margin: 0px 30px;
+}
+
+.progress-bar {
+    position: relative;
+    height: 4px;
+    margin: 23px 0px;
+    background-color: #7e7e7e;
+    width: 80%;
+}
+
+.white-bar {
+    position: absolute;
+    left: 0px;
+    width: 30%;
+    height: 4px;
+    background-color: white;
 }
 /* /song control */
 
