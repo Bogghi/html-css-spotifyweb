@@ -153,10 +153,10 @@ footer {
 /* main wrapper */
 .main-wrapper {
     position: absolute;
-    top: 100px;
     left: 300px;
     width: calc(100% - 300px);
-    height: calc(100% - 100px);
+    height: 100%;
+    padding-top: 100px;
     padding-left: 20px;
     overflow: auto;
 }
