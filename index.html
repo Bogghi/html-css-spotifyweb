@@ -15,8 +15,8 @@
         <div class="side-menu">
             <!-- logo and title -->
             <div class="logo">
-                <img src="img/logo.svg" alt="">
-                <!-- <i class="fab fa-spotify clr_white">Spotify</i> -->
+                <img src="img/logo.svg" alt="" class="lg-nav">
+                <i class="fab fa-spotify clr_white xs-nav"  onclick="myFunction()"></i>
             </div>
             <!-- /logo and title -->
             <!-- main menu -->
@@ -25,21 +25,21 @@
                     <li class="p-relative">
                         <div class="side-menu-selection"></div>
                         <i class="fas fa-home clr_white"></i>
-                        <span class="clr_white">Home</span>
+                        <span class="clr_white lg-nav">Home</span>
                     </li>
                     <li>
                         <i class="fas fa-search"></i>
-                        <span>Cerca</span>
+                        <span class="lg-nav">Cerca</span>
                     </li>
                     <li>
                         <i class="fas fa-book-open"></i>
-                        <span>La tua libreria</span>
+                        <span class="lg-nav">La tua libreria</span>
                     </li>
                 </ul>
             </aside>
             <!-- /main menu -->
             <!-- play list menu -->
-            <aside class="secondary-menu">
+            <aside class="secondary-menu lg-nav">
                 <h3 class="clr_white">playlist</h3>
                 <a href="#" class="clr_white add_btn">
                     <i class="fas fa-plus"></i>
@@ -60,12 +60,12 @@
             <div class="aside-bottom">
                 <a href="#">
                     <i class="fas fa-arrow-circle-down"></i>
-                    <span>installa app</span>
+                    <span class="lg-nav">installa app</span>
                 </a>
                 <hr>
                 <h3>
                     <i class="fas fa-user-circle clr_white"></i>
-                    <span  class="clr_white">John Doe</span>
+                    <span  class="clr_white lg-nav">John Doe</span>
                 </h3>
             </div>
             <!-- /play list menu -->
@@ -203,5 +203,7 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
