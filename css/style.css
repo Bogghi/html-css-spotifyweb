@@ -382,6 +382,7 @@ i.bigger {
 @media screen and (max-width: 552px) {
     .side-menu {
         width: 70px;
+        justify-content: space-between;
     }
 
     .main-wrapper {
@@ -399,6 +400,17 @@ i.bigger {
 
     .xs-nav {
         display: block;
+    }
+
+    .aside-bottom i {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo i{
+        font-size: 30px;
+        text-align: center;
+        margin: 15px 0px;
     }
 }
 
